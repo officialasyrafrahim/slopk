@@ -1,11 +1,13 @@
 <!-- Credits to https://github.com/othneildrew/Best-README-Template/ -->
 <a id="readme-top"></a>
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![GPL 3.0 License][license-shield]][license-url]
 
+<div align="center">
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  [![GPL 3.0 License][license-shield]][license-url]
+</div>
 
 
 <!-- PROJECT LOGO -->
