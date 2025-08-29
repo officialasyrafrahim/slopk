@@ -4,7 +4,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![Unlicense License][license-shield]][license-url]
+[![GPL 2.0 License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -16,7 +16,7 @@
     <img src="images/logo.png" alt="Logo" width="500" height="315">
   </a>
 
-  <h3 align="center">SlopK</h3>
+  <h3 align="center">Slopk</h3>
 
   <p align="center">
     An analysis tool designed to combat against stolen content, made for TikTok TechJam 2025.
@@ -69,6 +69,13 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+Slopk is a one-stop solution that aims to improve the quality and legitimacy of content by providing an advanced content management toolkit for social media platforms, content creators and consumers. These tools include:
+1. detection/blocking tool that uses MLLMs to fight against "slop" content such as low quality AI-generated videos and art.
+2. media analysis tool for creators to analyse content statistics and performance.
+3. comprehensive dashboard
+   - visual representation of statistics data
+   - *
+   - *
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,19 +221,17 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[contributors-shield]: https://img.shields.io/github/contributors/officialasyrafrahim/slopk.svg?style=for-the-badge
+[contributors-url]: https://github.com/officialasyrafrahim/slopk/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/officialasyrafrahim/slopk.svg?style=for-the-badge
+[forks-url]: https://github.com/officialasyrafrahim/slopk/network/members
+[stars-shield]: https://img.shields.io/github/stars/officialasyrafrahim/slopk.svg?style=for-the-badge
+[stars-url]: https://github.com/officialasyrafrahim/slopk/stargazers
+[issues-shield]: https://img.shields.io/github/issues/officialasyrafrahim/slopk.svg?style=for-the-badge
+[issues-url]: https://github.com/officialasyrafrahim/slopk/issues
+[license-shield]: https://img.shields.io/github/license/officialasyrafrahim/slopk.svg?style=for-the-badge
+[license-url]: https://github.com/officialasyrafrahim/slopk/blob/master/LICENSE.txt
+[product-screenshot]: images/logo.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
