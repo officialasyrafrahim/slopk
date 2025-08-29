@@ -4,8 +4,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![GPL 2.0 License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![GPL 3.0 License][license-shield]][license-url]
 
 
 
@@ -185,7 +184,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the GPL 2.0 License. See `LICENSE.txt` for more information.
+Distributed under the GPL 3.0 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,6 +213,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+* [Sniglet Font](https://www.theleagueofmoveabletype.com/sniglet)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
