@@ -1,0 +1,6 @@
+pandas==2.3.2
+pytube==15.0.0
+pytubefix==9.5.0
+st-clickable-images==0.0.3
+streamlit==1.49.1
+streamlit-clickable-images==0.0.3
