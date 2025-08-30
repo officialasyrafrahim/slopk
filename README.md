@@ -22,7 +22,7 @@
     <a href="https://github.com/officialasyrafrahim/slopk"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://www.youtube.com/watch?v=-Beil3adCHs">View Demo</a>
     &middot;
     <!--
     <a href="">Report Bug</a>
@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Video link][product-screenshot]](https://www.youtube.com/watch?v=-Beil3adCHs)
 
 Slopk is a one-stop solution that aims to improve the quality and legitimacy of content by providing an advanced content management toolkit for social media platforms, content creators and consumers. These tools include:
 1. detection/blocking tool that uses computer vision and AI language models to fight against "slop" content such as vulgar, inappopriate, and low quality AI-generated videos and art.
