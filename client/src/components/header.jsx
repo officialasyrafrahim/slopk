@@ -14,7 +14,7 @@ export function Header() {
             bindtap={() => nav('/')}
             className="text-[#023047] text-2xl font-bold"
           >
-            Home
+            &#8629; Home
           </text>
         </view>
       )}

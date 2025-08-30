@@ -7,6 +7,7 @@ import { MemoryRouter, Routes, Route } from 'react-router';
 
 import { App } from './pages/home/App.jsx';
 import { Dashboard } from './pages/dashboard/App.jsx';
+import { DashboardTrash } from './pages/dashboardTrash/App.jsx';
 import { Header } from './components/header.jsx';
 
 root.render(
@@ -15,6 +16,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/trash" element={<DashboardTrash />} />
     </Routes>
   </MemoryRouter>,
 );

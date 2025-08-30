@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router';
 
 import logo from '../../assets/logo.png';
 import mrbeast from '../../assets/mrbeast.png';
+import tiktok from '../../assets/tiktok.png';
 
 import './Home.css';
 
@@ -24,7 +25,10 @@ export function App() {
     .exec();
 
   return (
-    <scroll-view className="flex flex-col h-full bg-[linear-gradient(to_bottom,#023047_25%,white_25%)]" scroll-orientation="vertical">
+    <scroll-view
+      className="flex flex-col h-full bg-[linear-gradient(to_bottom,#023047_25%,white_25%)]"
+      scroll-orientation="vertical"
+    >
       <view className="flex flex-col gap-2 bg-[#023047] items-center">
         <view className="flex flex-1 justify-center">
           <image src={logo} mode="aspectFill" className="h-[100px] w-[400px]" />
@@ -55,27 +59,33 @@ export function App() {
           </text>
         </view>
 
-        <view className="flex flex-col gap-4 px-4">
+        <view
+          bindtap={() => nav('/trash')}
+          className="flex flex-col gap-4 px-4"
+        >
           <view className="bg-white rounded-lg py-4 px-4 flex justify-between items-center gap-1 shadow-2xl">
             <view className="flex gap-4 items-center">
               <image
-                src={mrbeast}
+                src={tiktok}
                 mode="aspectFill"
                 className="w-[50px] h-[50px] bg-black rounded-full"
               />
               <view className="flex flex-col">
-                <text className="text-2xl font-bold">Mr Beast</text>
-                <text className="text-1xl text-slate-600">@mrbeast</text>
+                <text className="text-2xl font-bold">AITA Bot</text>
+                <text className="text-1xl text-slate-600">@amitheassholestories</text>
               </view>
             </view>
             <view className="bg-red-600 p-4 rounded-xl w-[75px] flex justify-center">
               <text className="text-2xl font-bold text-white">999</text>
             </view>
           </view>
-          <view className="bg-white rounded-lg py-4 px-4 flex justify-between items-center gap-1 shadow-2xl">
+          <view
+            bindtap={() => nav('/trash')}
+            className="bg-white rounded-lg py-4 px-4 flex justify-between items-center gap-1 shadow-2xl"
+          >
             <view className="flex gap-4 items-center">
               <image
-                src={mrbeast}
+                src={tiktok}
                 mode="aspectFill"
                 className="w-[50px] h-[50px] bg-black rounded-full"
               />
@@ -86,14 +96,17 @@ export function App() {
                 </text>
               </view>
             </view>
-            <view className="bg-yellow-600 p-4 rounded-xl w-[75px] flex justify-center">
-              <text className="text-2xl font-bold text-white">600</text>
+            <view
+              bindtap={() => nav('/trash')}
+              className="bg-yellow-600 p-4 rounded-xl w-[75px] flex justify-center"
+            >
+              <text className="text-2xl font-bold text-white">698</text>
             </view>
           </view>
           <view className="bg-white rounded-lg py-4 px-4 flex justify-between items-center gap-1 shadow-2xl">
             <view className="flex gap-4 items-center">
               <image
-                src={mrbeast}
+                src={tiktok}
                 mode="aspectFill"
                 className="w-[50px] h-[50px] bg-black rounded-full"
               />
