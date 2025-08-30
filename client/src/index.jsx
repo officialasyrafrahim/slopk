@@ -10,15 +10,13 @@ import { Dashboard } from './pages/dashboard/App.jsx';
 import { Header } from './components/header.jsx';
 
 root.render(
-  <page>
+  <MemoryRouter>
     <Header />
-    <MemoryRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-      </Routes>
-    </MemoryRouter>
-  </page>,
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+    </Routes>
+  </MemoryRouter>,
 );
 
 if (import.meta.webpackHot) {
