@@ -1,4 +1,3 @@
-import { useCallback, useEffect, useState } from '@lynx-js/react';
 import { useNavigate } from 'react-router';
 import tiktok from "../../assets/tiktok.png"
 
@@ -48,7 +47,7 @@ export function DashboardTrash() {
         <text className="text-white text-4xl font-bold">Metrics</text>
 
         <scroll-view
-          className="flex flex-col mt-6"
+          className="flex flex-col mt-6 px-6"
           scroll-orientation="vertical"
         >
           <view className="bg-white rounded-lg py-8 px-8 flex flex-col items-center gap-1 my-4">

@@ -1,28 +1,15 @@
-import { useEffect } from '@lynx-js/react';
 import { useNavigate } from 'react-router';
 
 import logo from '../../assets/logo.png';
 import mrbeast from '../../assets/mrbeast.png';
+import bella from '../../assets/bella.png';
+import khaby from '../../assets/khaby.png';
 import tiktok from '../../assets/tiktok.png';
 
 import './Home.css';
 
 export function App() {
   const nav = useNavigate();
-
-  useEffect(() => {}, []);
-
-  lynx
-    .createSelectorQuery()
-    .select(`#scroll`)
-    .invoke({
-      method: 'autoScroll',
-      params: {
-        rate: 120, // Scrolling speed, distance per second (unit: px/sec)
-        start: true, // Start or stop auto-scrolling
-      },
-    })
-    .exec();
 
   return (
     <scroll-view
@@ -40,16 +27,6 @@ export function App() {
         </view>
       </view>
       <view className="flex flex-col bg-[#023047] gap-10 p-6 rounded-b-3xl justify-center pt-20">
-        {/* <view className="flex gap-4">
-          <input
-            className="bg-white text-2xl font-semibold p-4 flex-1 shadow-2xl"
-            placeholder="Check Accouunt"
-          />
-          <text className=" p-4 text-2xl bg-[#c75472] rounded-2xl shadow-2xl">
-            🔎
-          </text>
-        </view> */}
-
         <view className="flex flex-col gap-1">
           <text className="text-[#c75472] font-bold text-4xl">
             Slops Flagged
@@ -59,11 +36,11 @@ export function App() {
           </text>
         </view>
 
-        <view
-          bindtap={() => nav('/trash')}
-          className="flex flex-col gap-4 px-4"
-        >
-          <view className="bg-white rounded-lg py-4 px-4 flex justify-between items-center gap-1 shadow-2xl">
+        <view className="flex flex-col gap-4 px-4">
+          <view
+            bindtap={() => nav('/trash')}
+            className="bg-white rounded-lg py-4 px-4 flex justify-between items-center gap-1 shadow-2xl"
+          >
             <view className="flex gap-4 items-center">
               <image
                 src={tiktok}
@@ -72,7 +49,9 @@ export function App() {
               />
               <view className="flex flex-col">
                 <text className="text-2xl font-bold">AITA Bot</text>
-                <text className="text-1xl text-slate-600">@amitheassholestories</text>
+                <text className="text-1xl text-slate-600">
+                  @amitheassholestories
+                </text>
               </view>
             </view>
             <view className="bg-red-600 p-4 rounded-xl w-[75px] flex justify-center">
@@ -123,8 +102,11 @@ export function App() {
           </view>
         </view>
         <view className="flex flex-1 justify-center mb-2">
-          <text className="text-white text-2xl font-semibold p-4 rounded-3xl bg-[#c75472] shadow-2xl">
-            View more slop
+          <text
+            bindtap={() => nav('/search')}
+            className="text-white text-2xl font-semibold py-4 px-8 rounded-3xl bg-[#c75472] shadow-2xl"
+          >
+            Check Account
           </text>
         </view>
       </view>
@@ -159,24 +141,24 @@ export function App() {
             className="p-6 bg-[#023047] flex flex-col rounded-xl items-center justify-center w-[175px] h-[200px] mx-2"
           >
             <image
-              src={mrbeast}
+              src={bella}
               mode="aspectFill"
               className="w-[75px] h-[75px] bg-black rounded-full mb-1"
             />
-            <text className="text-2xl text-white font-bold">Mr Beast</text>
-            <text className="text-xl text-slate-400 font-bold">@mrbeast</text>
+            <text className="text-2xl text-white font-bold">Bella Poarch</text>
+            <text className="text-xl text-slate-400 font-bold">@bellapoarch</text>
           </view>
           <view
             bindtap={() => nav('/dashboard')}
             className="p-6 bg-[#023047] flex flex-col rounded-xl items-center justify-center w-[175px] h-[200px] mx-2"
           >
             <image
-              src={mrbeast}
+              src={khaby}
               mode="aspectFill"
               className="w-[75px] h-[75px] bg-black rounded-full mb-1"
             />
-            <text className="text-2xl text-white font-bold">Mr Beast</text>
-            <text className="text-xl text-slate-400 font-bold">@mrbeast</text>
+            <text className="text-2xl text-white font-bold">Khabane lame</text>
+            <text className="text-xl text-slate-400 font-bold">@khaby.lame</text>
           </view>
         </scroll-view>
       </view>

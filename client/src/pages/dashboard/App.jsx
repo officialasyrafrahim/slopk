@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from '@lynx-js/react';
 import { useNavigate } from 'react-router';
-import mrbeast from "../../assets/mrbeast.png"
+import mrbeast from '../../assets/mrbeast.png';
 
 import './Dashboard.css';
 
@@ -11,7 +11,11 @@ export function Dashboard() {
     <view className="flex flex-col h-[100vh]">
       <view className="p-6 flex flex-col gap-6">
         <view className="flex flex-row gap-4 items-center">
-          <image src={mrbeast} mode="aspectFill" className="w-[75px] h-[75px] rounded-full" />
+          <image
+            src={mrbeast}
+            mode="aspectFill"
+            className="w-[75px] h-[75px] rounded-full"
+          />
           <view className="flex flex-col">
             <text className="text-4xl font-bold">Mr Beast</text>
             <text className="text-2xl text-slate-600">@mrbeast</text>
@@ -48,7 +52,7 @@ export function Dashboard() {
         <text className="text-white text-4xl font-bold">Metrics</text>
 
         <scroll-view
-          className="flex flex-col mt-6"
+          className="flex flex-col mt-6 px-6"
           scroll-orientation="vertical"
         >
           <view className="bg-white rounded-lg py-8 px-8 flex flex-col items-center gap-1 my-4">
