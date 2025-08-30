@@ -7,13 +7,11 @@ import './Dashboard.css';
 export function Dashboard() {
   const nav = useNavigate();
 
-  const [alterLogo, setAlterLogo] = useState(false);
-
   return (
     <view className="flex flex-col h-[100vh]">
       <view className="p-6 flex flex-col gap-6">
         <view className="flex flex-row gap-4 items-center">
-          <image src={mrbeast} mode="aspectFill" className="w-[75px] h-[75px] bg-black rounded-full" />
+          <image src={mrbeast} mode="aspectFill" className="w-[75px] h-[75px] rounded-full" />
           <view className="flex flex-col">
             <text className="text-4xl font-bold">Mr Beast</text>
             <text className="text-2xl text-slate-600">@mrbeast</text>

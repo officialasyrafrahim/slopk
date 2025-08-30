@@ -9,7 +9,7 @@ export default {
   plugins: [],
   theme: {
     colors: {
-      
+      primary: '#023047',
     },
   },
 };
