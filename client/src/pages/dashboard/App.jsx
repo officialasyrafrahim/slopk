@@ -1,39 +1,48 @@
-import { useCallback, useEffect, useState } from '@lynx-js/react'
+import { useCallback, useEffect, useState } from '@lynx-js/react';
+import { useNavigate } from 'react-router';
 
-import './App.css'
+import './Dashboard.css';
 
 export function Dashboard() {
-  const [alterLogo, setAlterLogo] = useState(false)
+  const nav = useNavigate();
 
-  useEffect(() => {
-    console.info('Hello, ReactLynx')
-  }, [])
-
+  const [alterLogo, setAlterLogo] = useState(false);
 
   return (
     <view>
-      <view className='Background' />
-      <view className='App'>
-        <view className='Banner'>
-          <text className='Title'>React</text>
-          <text className='Subtitle'>on Lynx</text>
+      <view className="p-6 flex flex-col gap-6">
+        <view className="flex flex-row gap-4 items-center">
+          <view className="w-[100px] h-[100px] bg-black rounded-full" />
+          <view className="flex flex-col gap-1">
+            <text className="text-5xl font-semibold">Mr Beast</text>
+            <text className="text-3xl text-slate-600">@mrbeast</text>
+          </view>
         </view>
-        <view className='Content'>
-          <text className='Description'>Tap the logo and have fun!</text>
-          <text className='Hint'>
-            Edit<text
-              style={{
-                fontStyle: 'italic',
-                color: 'rgba(255, 255, 255, 0.85)',
-              }}
-            >
-              {' src/App.tsx '}
-            </text>
-            to see updates!
-          </text>
+        <view className="flex flex-1 justify-center">
+          <view className="flex flex-col items-center bg-lime-600 py-4 px-8 rounded-lg">
+            <text className="text-2xl font-semibold text-white">Account Score</text>
+            <text className="text-4xl font-semibold text-white">987</text>
+          </view>
         </view>
-        <view style={{ flex: 1 }} />
+        <view className="grid gap-4">
+          <view className="item">
+            <text className="text-2xl font-semibold">Followers</text>
+            <text className="text-2xl">119M</text>
+          </view>
+          <view className="item">
+            <text className="text-2xl font-semibold">Following</text>
+            <text className="text-2xl">340</text>
+          </view>
+          <view className="item">
+            <text className="text-2xl font-semibold">Likes</text>
+            <text className="text-2xl">1.2B</text>
+          </view>
+          <view className="item">
+            <text className="text-2xl font-semibold">Videos</text>
+            <text className="text-2xl">418</text>
+          </view>
+        </view>
       </view>
     </view>
-  )
+  );
 }
